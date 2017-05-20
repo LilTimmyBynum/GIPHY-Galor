@@ -1,0 +1,56 @@
+body {
+    font-family: 'Macondo', cursive;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+    background-color: black;
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), 
+    radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), 
+    radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+    
+}
+
+.imageStyle {
+    width: 100px;
+    height: 100px;
+}
+
+.myBtn {
+    float: left;
+    margin: 5px;
+    padding-left: 3;
+    padding-right: 3;
+    display: block;
+    text-align: center;
+    color: #000000;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #D3D3D3;
+}
+
+.yourBtn {
+    color: #000000;
+}
+
+.createBtn {
+    margin: 5px;
+    padding-left: 3;
+    padding-right: 3;
+    text-align: center;
+    color: #000000;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #D3D3D3;
+}
+
+.noFloat {
+    clear: both;
+}
+
+.picFrame {
+    display: inline-block;
+    margin: 5px;
+}
